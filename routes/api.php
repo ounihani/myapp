@@ -17,4 +17,13 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('flights', 'ApiController@getFlights');
+Route::post('login', 'UserController@login');
+Route::post('register', 'UserController@register');
+
+
+
+Route::group(['middleware' => ['auth:api','APIkey']], function(){
+
+    Route::get('flights', 'ApiController@getFlights');
+
+});
