@@ -94,7 +94,7 @@ class ApiController extends Controller
             
 
             //50 sorted flights from 3 providers
-            return $final_data;
+            return response()->json($final_data,200);
         }else{
             return response()->json([
                 'message' => 'you have exceeded your allowed number of APIs calls'
