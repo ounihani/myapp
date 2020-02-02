@@ -10,13 +10,13 @@ The project description goes here
 
 - run npm install to install npm dependencies
 
--run cp cp .env.example .env to create .env file for your project
+- run cp cp .env.example .env to create .env file for your project
 
--genereate an encryption key using cp .env.example .env
+- genereate an encryption key using cp .env.example .env
 
--create an empty database for your project and fill it's credentials in the .env file
+- create an empty database for your project and fill it's credentials in the .env file
 
--migrate the database : php artisan migrate
+- migrate the database : php artisan migrate
 
 ## Response to questions
 
