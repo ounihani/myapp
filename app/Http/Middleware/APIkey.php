@@ -25,8 +25,7 @@ class APIkey
             if ($users != 1) { 
 
               return response("Invalid access key");
-
-
+            
             } else { 
 
               return $next($request);
