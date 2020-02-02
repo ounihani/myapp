@@ -12,7 +12,7 @@ The project description goes here
 
 - run cp cp .env.example .env to create .env file for your project
 
-- genereate an encryption key using cp .env.example .env
+- genereate an encryption key using php artisan key:generate
 
 - create an empty database for your project and fill it's credentials in the .env file
 
