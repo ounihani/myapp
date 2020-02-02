@@ -18,6 +18,12 @@ The project description goes here
 
 - migrate the database : php artisan migrate
 
+- php artisan passport:install
+
+- php artisan storage:link 
+
+-php artisan serve
+
 ## Response to questions
 
 you will find a lot of comments in the code contact me if you have any problem
